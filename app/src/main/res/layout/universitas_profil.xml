@@ -6,16 +6,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".view.UniversitasProfil">
+
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="30dp"/>
+        android:layout_height="30dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="229dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
         <Space
             android:layout_width="30dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
         <ImageView
             android:id="@+id/logo"
@@ -26,23 +30,31 @@
 
         <Space
             android:layout_width="20dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/nama"
-            android:layout_width="176dp"
-            android:textSize="20dp"
-            android:textStyle="bold"
+            android:layout_width="281dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:layout_marginTop="20dp"
-            android:text="nama" />
+            android:gravity="center"
+            android:text="nama"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
     </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#191970" />
+
+
     <Space
         android:layout_width="match_parent"
-        android:layout_height="35dp"/>
+        android:layout_height="25dp"></Space>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,19 +63,20 @@
 
         <TextView
             android:id="@+id/akreditas"
-            android:textStyle="bold"
-            android:textSize="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="akreditas" />
+            android:text="akreditas"
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
         <Space
             android:layout_width="20dp"
             android:layout_height="wrap_content" />
+
         <View
             android:layout_width="2dp"
             android:layout_height="40dp"
-            android:background="@color/colorPrimary" />
+            android:background="#191970" />
 
         <Space
             android:layout_width="20dp"
@@ -71,19 +84,20 @@
 
         <TextView
             android:id="@+id/jenis"
-            android:textStyle="bold"
-            android:textSize="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="jenis" />
+            android:text="jenis"
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
         <Space
             android:layout_width="20dp"
             android:layout_height="wrap_content" />
+
         <View
             android:layout_width="2dp"
             android:layout_height="40dp"
-            android:background="@color/colorPrimary" />
+            android:background="#191970" />
 
         <Space
             android:layout_width="20dp"
@@ -91,20 +105,30 @@
 
         <TextView
             android:id="@+id/status"
-            android:textStyle="bold"
-            android:textSize="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="status" />
+            android:text="status"
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
     </LinearLayout>
+
     <LinearLayout
-        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
 
         <Space
             android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="17dp"
+            android:src="@drawable/pin" />
+
+        <Space
+            android:layout_width="5dp"
             android:layout_height="wrap_content" />
 
         <TextView
@@ -136,8 +160,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <Space
-            android:layout_width="20dp"
+            android:layout_width="40dp"
             android:layout_height="wrap_content" />
 
         <TextView
@@ -150,22 +175,34 @@
 
     </LinearLayout>
 
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"/>
+
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="60dp">
+        android:layout_height="31dp">
 
         <Space
             android:layout_width="20dp"
             android:layout_height="wrap_content" />
 
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="17dp"
+            android:src="@drawable/globe" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
         <TextView
             android:id="@+id/website"
-            android:textStyle="bold"
-            android:textSize="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="website" />
+            android:text="website"
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
