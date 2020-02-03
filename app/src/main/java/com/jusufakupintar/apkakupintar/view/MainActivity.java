@@ -10,13 +10,9 @@ import com.jusufakupintar.apkakupintar.Adapter.UniversitasAdapter;
 import com.jusufakupintar.apkakupintar.Database;
 import com.jusufakupintar.apkakupintar.Model.UniversitasModel;
 import com.jusufakupintar.apkakupintar.R;
-import com.smarteist.autoimageslider.IndicatorAnimations;
-import com.smarteist.autoimageslider.IndicatorView.draw.controller.DrawController;
-import com.smarteist.autoimageslider.SliderAnimations;
 import com.smarteist.autoimageslider.SliderView;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
